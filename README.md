@@ -1,6 +1,6 @@
-# Previsão de Turnover (RH) – IA Preditiva
+# Previsão de Turnover – IA Preditiva
 
-Este projeto foi desenvolvido como parte de um estudo voltado para necessidades de predição em áreas de RH com grande fluxo. Ele utiliza aprendizado de máquina para prever a probabilidade de turnover (saída de funcionários) com base em dados sintéticos simulando cenários reais de RH.
+Este projeto foi desenvolvido como parte de um estudo voltado para necessidades de predição de RH com grande fluxo. Ele utiliza aprendizado de máquina para prever a probabilidade de turnover (saída de funcionários) com base em dados sintéticos simulando cenários reais de RH. Assistente também pode ser utilizado em outras áreas com alto fluxo de documentos e necessidade de constante atualização de probabilidade.
 
 ![Dashboard Turnover RH](cover.png)
 
@@ -84,6 +84,7 @@ Envie um CSV com os campos do dataset sintético (sem a coluna turnover) e visua
 ## Sobre mim
 
 Desenvolvido por Thais Inês, apaixonada por IA e projetos com impacto real.
+
 
 
 
