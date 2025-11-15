@@ -31,41 +31,42 @@ Este projeto foi desenvolvido como parte de um estudo voltado para necessidades 
 
 ## Estrutura do projeto
 projeto-preditivo/
-├── data/ # Arquivos de dados sintéticos 
-├── notebooks/ # Análises exploratórias (opcional)
-├── src/ # Scripts principais │ 
-├── 01_data_generation.py # Geração de dados sintéticos │ 
-├── 03_model_ready_data.py # Treinamento e salvamento do modelo │ 
-├── 05_app_streamlit.py # Dashboard interativo 
-├── .gitignore 
-├── README.md 
+├── data/                      # Arquivos de dados sintéticos
+├── notebooks/                # Análises exploratórias (opcional)
+├── src/                      # Scripts principais
+│   ├── 01_data_generation.py     # Geração de dados sintéticos
+│   ├── 03_model_ready_data.py    # Treinamento e salvamento do modelo
+│   ├── 05_app_streamlit.py       # Dashboard interativo
+├── .gitignore
+├── README.md
 └── requirements.txt
+
 
 
 ---
 
 ## Como rodar localmente
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-preditivo.git
-   cd projeto-preditivo
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/projeto-preditivo.git
+cd projeto-preditivo
 
-2. **Crie o ambiente virtual**
-   python3 -m venv venv
-   source venv/bin/activate
+# 2. Crie e ative o ambiente virtual
+python3 -m venv venv
+source venv/bin/activate
 
-3. **Instale as dependências**
+# 3. Instale as dependências
 pip install -r requirements.txt
 
-4. **Gere os dados sintéticos**
+# 4. Gere os dados sintéticos
 python src/01_data_generation.py
 
-5. **Treine e salve o modelo**
+# 5. Treine e salve o modelo
 python src/03_model_ready_data.py
 
-6. **Rode o dashboard**
+# 6. Rode o dashboard
 streamlit run src/05_app_streamlit.py
+
 
 
 ## Exemplo de uso
@@ -83,6 +84,7 @@ Envie um CSV com os campos do dataset sintético (sem a coluna turnover) e visua
 ## Sobre mim
 
 Desenvolvido por Thais Inês, apaixonada por IA e projetos com impacto real.
+
 
 
 
